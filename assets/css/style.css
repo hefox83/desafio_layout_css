@@ -2,10 +2,12 @@ body{
     margin-top: 0%;
     margin-bottom: 0;
     font-family: 'Roboto', sans-serif;
+    
 }
 .grid-container{
     display: grid;
     height: 100vh;
+    height: var(--doc-height);
     grid-template-areas: 
     "header header header header "
     "menu main main main "
@@ -20,6 +22,7 @@ body{
     grid-area: header;
     background-color: #295ca0;
     height: 60px;
+    padding-bottom: 20px;
 
 }
 .menu{
@@ -40,6 +43,7 @@ body{
     background-color: #295ca0;
     color: #f0f0f0;
     height: 40px;
+    padding-bottom: 20px;
     justify-content: center;
     align-content:center;
 }
