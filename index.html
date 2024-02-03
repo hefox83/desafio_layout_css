@@ -1,14 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Document</title>
-</head>
-<body>
-    <div>
-        div
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+    <title>Layout</title>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="header"><h1>Mi e-commerce</h1></div>
+      <div class="menu">
+        <div> 
+            <h3>Categorias</h3>
+            <p> <strong>Computadores</strong> (12)</p>
+            <p> <strong>Audifonos</strong> (22)</p>
+            <p> <strong>soluciones Tech</strong>  (02)</p>
+            <p> <strong>Teclados</strong> (02)</p>
+        </div>
+      </div>
+      <div class="main">
+        <div class="grid-producto">
+          <div class="grid-card">
+            <img cladd="imgcard" src="./assets/img/audifonos.jpeg" alt="" />
+            <h2>Audifonos</h2>
+            <div class="venta">
+              <p>$150.000</p>
+            </div>
+            <div class="boton"><p>Comprar</p></div>
+          </div>
+          <div class="grid-card">
+            <img cladd="imgcard" src="./assets/img/imagenmac.jpeg" alt="" />
+            <h2>Productos Mac</h2>
+            <div class="venta">
+              <p>$1.150.000</p>
+            </div>
+            <div class="boton"><p>Comprar</p></div>
+          </div>
+          <div class="grid-card">
+            <img cladd="imgcard" src="./assets/img/keyboard.jpeg" alt="" />
+            <h2>Teclados analogos</h2>
+            <div class="venta">
+              <p>$100.000</p>
+            </div>
+            <div class="boton"><p>Comprar</p></div>
+          </div>
+          <div class="grid-card">
+            <img cladd="imgcard" src="./assets/img/pc.jpeg" alt="" />
+            <h2>Soluciones Tecnologicas</h2>
+            <div class="venta">
+              <p>$350.000</p>
+            </div>
+            <div class="boton"><p>Comprar</p></div>
+          </div>
+
+        </div>
+      </div>
+      <div class="footer">
+        <p class="pie">@mie-commerce</p>
+      </div>
     </div>
-</body>
+  </body>
 </html>
